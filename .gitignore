@@ -12,6 +12,7 @@ Cargo.lock
 # Added by cargo
 /target
 
+package_lock.json
 node_modules
 
 dist
