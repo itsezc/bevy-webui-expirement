@@ -1,0 +1,4 @@
+version="0.3.2"
+
+[scripts]
+tailwind = "NODE_ENV=production ./node_modules/.bin/tailwindcss -c ./tailwind.config.js  -o ./dist/css/tailwind.css --minify"
