@@ -1,0 +1,15 @@
+[build]
+target = 'index.html'
+release = true
+dist = 'dist'
+public_url = '/'
+
+[serve]
+addr = '0.0.0.0'
+port = 8000
+open = true
+no_autorelaod = true
+
+[clean]
+dist = 'dist'
+cargo = true
