@@ -7,7 +7,7 @@ edition = '2021'
 
 [dependencies]
 yew = { git = 'https://github.com/yewstack/yew/' }
-# bevy = { version = '0.6', features = ['dynamic'] }
+bevy = { version = '0.6', features = ['bevy_gltf', 'render', 'bevy_winit', 'png'] }
 
 [workspace]
 resolver = '2'
