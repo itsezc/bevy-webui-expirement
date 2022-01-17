@@ -1,5 +1,4 @@
 version="0.3.2"
 
 [scripts]
-setup = "npm install tailwindcss postcss"
 tailwind = "NODE_ENV=production ./node_modules/.bin/tailwindcss -c ./tailwind.config.js  -o ./src/css/tailwind.css --minify"

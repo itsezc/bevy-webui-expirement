@@ -5,6 +5,7 @@ A simple Bevy, Yew (WASM), Tailwindcss with a HTMLRenderer implementation for hy
 To get started run:
 
 - Install bonnie (`cargo install bonnie`), Trunk, NPM and Node
-- `cargo install --path .`
+- `npm i` - To install tailwind & dependencies
+- `cargo install --path .` - Install the necessary crates
 - `bonnie tailwind` - To generate the Tailwind classes
 - `trunk serve` - To serve the application
